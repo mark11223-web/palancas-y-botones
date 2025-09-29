@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=0.9">
   <title>Escape room digital: "palancas y botones"</title>
   <style>
 
@@ -12,8 +12,8 @@
   <label style="display: none;" id="llave"><p style="position: fixed; top: 125px; left: 45%; font-size: 40px;">🔑</p></label>
   <label style="display: none;" id="superllave"><p style="position: fixed; top: 175px; left: 45%; font-size: 40px;">🗝</p></label>
   <button id="invent" style="font-size: 35px; cursor: pointer; padding: 15px 15px; border-radius: 40px; border: 2px outset white; position: absolute; top: 0; right: 0;">🎒</button>
-  <button id="butpass1" onclick="respass1()" style="position: fixed; left: 50%; top: 75px; background-color: goldenrod; border: 2px solid brown; border-radius: 10px; padding: 10px 20px; font-weight: bold; cursor: not-allowed;">Contraseña</button>
-  <button onclick="sumakey()" style="position: fixed; left: 35%; top: 75px; background-color: goldenrod; border: 2px solid brown; border-radius: 10px; padding: 10px 20px; font-weight: bold; cursor: pointer;" id="sumallave">Cofre</button>
+  <button id="butpass1" onclick="respass1()" style="position: absolute; left: 50%; top: 75px; background-color: goldenrod; border: 2px solid brown; border-radius: 10px; padding: 10px 20px; font-weight: bold; cursor: not-allowed;">Contraseña</button>
+  <button onclick="sumakey()" style="position: absolute; left: 35%; top: 75px; background-color: goldenrod; border: 2px solid brown; border-radius: 10px; padding: 10px 20px; font-weight: bold; cursor: pointer;" id="sumallave">Cofre</button>
   <label id="cosn" style="border-radius: 10px; border: 2px outset gray; background: gray; position: absolute; top: 80px; right: 1px; display: none;"><p style="font-size: 20px;" id="cos"></p></label>
   <input id="pass1" type="number" style="position: fixed; width: 150px;left: 35%; top: 175px; display: none;" placeholder="Escriba la contraseña...">
   <button onclick="final()" id="comp" style="background-color: darkorange; border: 2px solid saddlebrown; border-radius: 12px; padding: 6px 12px; font-weight: bold; color: white;cursor: pointer; box-shadow: 2px 2px 6px rgba(0,0,0,0.3); transition: all 0.3s ease; display: none; cursor: pointer; position: fixed; top: 170px; left: 58%;">Comprobar</button>
@@ -148,3 +148,4 @@
 </body>
 
 </html>
+
