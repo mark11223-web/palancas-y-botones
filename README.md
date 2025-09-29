@@ -1,1 +1,1 @@
-# palancas-y-botones
+# palancas y botones
