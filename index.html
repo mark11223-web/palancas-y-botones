@@ -15,7 +15,7 @@
   <button onclick="sumakey()" style="position: fixed; left: 35%; top: 75px; background-color: goldenrod; border: 2px solid brown; border-radius: 10px; padding: 10px 20px; font-weight: bold; cursor: pointer;" id="sumallave">Cofre</button>
   <label id="cosn" style="border-radius: 10px; border: 2px outset gray; background: gray; position: absolute; top: 80px; right: 1px; display: none;"><p style="font-size: 20px;" id="cos"></p></label>
   <input id="pass1" type="number" style="position: fixed; width: 150px;left: 35%; top: 175px; display: none;" placeholder="Escriba la contraseña...">
-  <button onclick="final()" id="comp" style="display: none; cursor: pointer; position: fixed; top: 175px; left: 58%;">Comprobar</button>
+  <button onclick="final()" id="comp" style="background-color: darkorange; border: 2px solid saddlebrown; border-radius: 12px; padding: 6px 12px; font-weight: bold; color: white;cursor: pointer; box-shadow: 2px 2px 6px rgba(0,0,0,0.3); transition: all 0.3s ease; display: none; cursor: pointer; position: fixed; top: 170px; left: 58%;">Comprobar</button>
   <p id="resfin" style="display: none; position: fixed; left: 35%; top: 225px;">La contraseña es 412</p>
   <p id="fin" style="display: none; font-size: 75px; color: yellow; position: fixed; top: 50px; left: 100px;">HAS ESCAPADO DEL ESCAPE ROOM</p>
 
@@ -139,7 +139,7 @@
         comp.style.display = "none";
         fin.style.display = "block"
       } else {
-        alert("Pero como puedes ser tan tonto, si te estoy diciendo la contraseña...")
+        alert("¿¡Pero que estás haciendo!?, si te estoy diciendo la contraseña...")
       }
       }
     }
